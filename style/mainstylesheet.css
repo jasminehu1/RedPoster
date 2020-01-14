@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.maincontainer{
+    margin: auto;
+    width: 600px;
+    height: 800px;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    font-family: Helvetica;
+}
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: rgb(211, 15, 15);
+    /*z-index: 20;*/
+}
+.box2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(170, 0, 0);
+}
+.box3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: rgb(163, 50, 50);
+}
+.topleft{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    text-align: right;
+    font-size: 20px;
+    position: relative;
+    top: 20%;
+    padding-right: 20px;
+    letter-spacing: -2px;
+
+    color: white;
+}
+.topright{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+    top: 15%;
+    padding-left: 20px;
+    letter-spacing: -2px;
+}
+.centerleft{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    text-align: right;
+    font-size: 20px;
+    position: relative;
+    top: 60%;
+    padding-right: 20px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.centerright{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    text-align: left;
+    position: relative;
+    top: 15%;
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.bottomleft{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    text-align: right;
+    font-size: 20px;
+    position: relative;
+    top: 15%;
+    padding-right: 20px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.bottomright{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    text-align: left;
+    position: relative;
+    top: 15%;
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: bolder;
+}
